@@ -23,8 +23,9 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: roboto.style.fontFamily,
+    fontFamily: "Helvetica Neue",
   },
 });
 
 export default theme;
+

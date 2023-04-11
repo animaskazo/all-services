@@ -12,16 +12,16 @@ export default function Index() {
     <Container maxWidth="sm">
       <Box sx={{ my: 4 }}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Material UI - Next.js example
+          All Services
         </Typography>
+        <Box sx={{ my: 4}}>
         <Button variant="contained" component={Link} noLinkStyle href="/search">
           Go to the search page
         </Button>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
-        <Copyright />
+        </Box>
+        <Box sx={{ my: 34 }}>
+          <Copyright />
+        </Box>
       </Box>
     </Container>
   );
