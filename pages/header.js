@@ -27,7 +27,8 @@ export default function ButtonAppBar() {
             All Services
           </Typography>
           <Button color="inherit" size='small' sx={{ mr: 2 }} href='/createaccount'>Crea tu cuenta</Button>
-          <Button color="inherit" size='small' href='/createservice'>Crea tu anuncio</Button>
+          <Button color="inherit" size='small' sx={{ mr: 2 }} href='/createservice'>Crea tu anuncio</Button>
+          <Button color="inherit" size='small' href='/listservice'>Mis publicaciones</Button>
         </Toolbar>
       </AppBar>
     </Box>

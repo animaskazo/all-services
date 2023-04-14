@@ -14,7 +14,7 @@ export default function Search() {
     <Box>
         <Header/>
         <Container maxWidth="md">
-        <Box sx={{ my: 24 }}>
+        <Grid sx={{display: 'flex', justifyContent: 'center', flexDirection:'column', minHeight:'80vh'}}>
             <Typography variant="p" component="h1" gutterBottom sx={{ mb: 2 }}>
             Busca un servicio
             </Typography>
@@ -25,10 +25,11 @@ export default function Search() {
                 <Button size="large" variant="contained" component={Link} noLinkStyle href="#">
                     Buscar
                 </Button>
-            <Box sx={{ my: 34 }}>
+            </Grid>
+            <Box sx={{ my: 4 }}>
                 <Copyright />
             </Box>
-        </Box>
+
         </Container>
     </Box>
   );
